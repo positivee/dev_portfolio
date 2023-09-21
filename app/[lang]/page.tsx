@@ -3,7 +3,6 @@ import ProjectsSection from "@/components/ProjectsSection";
 import SkillSection from "@/components/SkillSection";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionaries";
-import Image from "next/image";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 export default async function Home({
@@ -14,8 +13,8 @@ export default async function Home({
   const { banner } = await getDictionary(lang);
 
   return (
-    <div className="container m-auto space-y-20 p-4 text-center md:text-left">
-      <div className="min-h-[35vh] flex flex-col justify-center  ">
+    <div className="container m-auto space-y-20 p-4 text-center md:text-left  ">
+      <div className="min-h-[35vh] pt-28 md:pt-14 flex flex-col justify-center  ">
         <p className="text-2xl  md:text-4xl max-w-2xl leading-relaxed	">
           {banner.text_before}
           <strong className="text-blue-500 "> Kamil Biernacki</strong>

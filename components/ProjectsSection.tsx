@@ -7,7 +7,7 @@ import { getDictionary } from "@/lib/dictionaries";
 async function ProjectsSection({ lang }: { lang: Locale }) {
   const { projectsText } = await getDictionary(lang);
   return (
-    <div className="md:px-44 md:flex md:gap-14" id="projects">
+    <div className="md:px-26 lg:px-44 md:flex md:gap-14" id="projects">
       <h2 className="uppercase text-3xl text-blue-500 mb-2 md:w-1/4">
         {projectsText.heading}
       </h2>

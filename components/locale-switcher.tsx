@@ -15,7 +15,7 @@ function LocaleSwitcher({ lang }: { lang: Locale }) {
   };
 
   return (
-    <div className="flex justify-center py-2 ">
+    <div className="flex justify-center items-center py-2 ">
       <BsGlobeAsiaAustralia className="h-6 w-6 text-black/80 " />
       {i18n.locales.map((locale) => {
         return (

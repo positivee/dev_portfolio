@@ -46,14 +46,17 @@ async function SkillSection({ lang }: { lang: Locale }) {
   const { skills: skillsText } = await getDictionary(lang);
 
   return (
-    <div className="md:px-44 md:flex md:justify-between md:gap-14" id="skills">
+    <div
+      className="md:px-26 lg:px-44 md:flex md:justify-between md:gap-14"
+      id="skills"
+    >
       <h2 className="uppercase text-3xl text-blue-500 mb-2 md:w-1/4">
         {skillsText.heading}
       </h2>
 
       <div className="text-lg md:w-3/4">
         <p className="mb-4">{skillsText.intro}</p>
-        <div className=" grid  grid-cols-2 md:grid-cols-4 gap-8 ">
+        <div className=" grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
           {Object.keys(skills).map((skill, index) => (
             <div
               key={index}

@@ -6,7 +6,7 @@ async function BackgroundSection({ lang }: { lang: Locale }) {
   const { background } = await getDictionary(lang);
 
   return (
-    <div className="md:px-44 md:flex md:gap-14" id="about">
+    <div className="md:px-26 lg:px-44 md:flex md:gap-14" id="about">
       <h2 className="uppercase text-3xl text-blue-500 mb-2 md:w-1/4">
         {background.heading}
       </h2>

@@ -1,32 +1,52 @@
+"use client";
 import { Locale } from "@/i18n.config";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import LocaleSwitcher from "./locale-switcher";
-import { getDictionary } from "@/lib/dictionaries";
 
-async function Navbar({ lang }: { lang: Locale }) {
-  const { menu } = await getDictionary(lang);
+function Navbar({ lang, menuText }: { lang: Locale; menuText: any }) {
+  const [shadowOnScroll, setShadowOnScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 180) {
+        setShadowOnScroll(true);
+      } else {
+        setShadowOnScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="container m-auto py-5">
-      <div className="flex flex-col gap-4 text-center text-lg md:flex-row ">
+    <div
+      className={`w-full  py-5 fixed bg-white ${
+        shadowOnScroll && `drop-shadow-md transition duration-700 ease-in-out`
+      } `}
+    >
+      <div className="container m-auto flex flex-col gap-4 text-center items-center text-lg md:flex-row ">
         <div className="flex-1">
           <a
             href="#about"
             className="border-b-2 border-blue-500 px-2 hover:text-blue-500 hover:scale-105 py-2 mx-4"
           >
-            {menu.about}
+            {menuText.about}
           </a>
           <a
             href="#skills"
             className="border-b-2 border-blue-500 px-2 hover:text-blue-500 hover:scale-105 py-2 mx-4"
           >
-            {menu.skills}
+            {menuText.skills}
           </a>
           <a
             href="#projects"
             className="border-b-2 border-blue-500 px-2 hover:text-blue-500 hover:scale-105 py-2 mx-4"
           >
-            {menu.projects}
+            {menuText.projects}
           </a>
         </div>
 
