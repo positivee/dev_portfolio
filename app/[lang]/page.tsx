@@ -3,6 +3,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import SkillSection from "@/components/SkillSection";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionaries";
+import Image from "next/image";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 export default async function Home({
