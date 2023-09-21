@@ -27,7 +27,8 @@
               "name": "Pokemon App",
               "description": "React TypeScript App utilizing the Pokémon API for browsing and managing your favorite Pokémon. This application allows users to seamlessly explore a comprehensive list of Pokémon across multiple pages. Additionally, it empowers users to effortlessly add or remove their favorite Pokémon, with their selections being stored and managed using Redux.",
               "github": "https://github.com/positivee/pokemon-app/tree/develop",
-              "tags": ["TypeScript", "React", "Redux", "StyledComponents", "PokéAPI"]
+              "tags": ["TypeScript", "React", "Redux", "StyledComponents", "PokéAPI"],
+              "live": "https://pokemon-app-ebon-two.vercel.app/"
             }, 
             {
               "name": "Potography portfolio",
