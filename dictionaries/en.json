@@ -1,0 +1,67 @@
+{
+    "menu":{
+        "about": "About me",
+        "skills": "Skills",
+        "projects": "My projects"
+    },
+    "banner": {
+        "text_before": "Hi, I'm",
+        "text_after": ", a developer and SEO specialist based in Poland. I have a passion for building web apps, designing interfaces, and ensuring they achieve high rankings!",
+        "call": "Get in touch with me"
+      },
+      "background":{
+        "heading": "Background",
+        "description_1": "I graduated from Lublin University of Technology after completing Master of Engineering in Information Technology.",
+        "description_2": "As a web developer and SEO specialist, I take pleasure in bridging the divide between engineering and design. I leverage my technical expertise to craft aesthetically pleasing products. My ultimate aim is to construct applications that are not only scalable and efficient under the hood but also deliver captivating, pixel-perfect user experiences.",
+        "description_3": "When I'm not in front of a computer screen, I'm probably learning new cooking recipes, photographing, or playing video games."
+      },
+      "skills":{
+          "heading": "Skills",
+          "intro": "The skills, tools and technologies I use to bring your products to life:"
+      },
+      "projectsText":{
+        "heading": "Projects",
+        "intro": "The more interesting projects that I did:",
+        "projects":[
+            {
+              "name": "Pokemon App",
+              "description": "React TypeScript App utilizing the Pokémon API for browsing and managing your favorite Pokémon. This application allows users to seamlessly explore a comprehensive list of Pokémon across multiple pages. Additionally, it empowers users to effortlessly add or remove their favorite Pokémon, with their selections being stored and managed using Redux.",
+              "github": "https://github.com/positivee/pokemon-app/tree/develop",
+              "tags": ["TypeScript", "React", "Redux", "StyledComponents", "PokéAPI"]
+            }, 
+            {
+              "name": "Potography portfolio",
+              "description": "This application is built using Next.js 13, Tailwind CSS, the Cloudinary API, and Prisma. It allows photographers to showcase their photography portfolios with galleries stored on Cloudinary and provides a client panel where clients can log in to view shared photography sessions. Live version have admin panel for all users.",
+              "github": "https://github.com/positivee/accountant-page",
+              "tags": [ "NextJS 13", "Tailwind", "Cloudinary API","Next Auth"],
+              "live": "https://photography-portfolio-4m98.vercel.app/"
+            },
+            {
+              "name": "Accountat Page",
+              "description": "Responsive webpage created for an accountant using Next.js, optimized for SEO.",
+              "github": "https://github.com/positivee/accountant-page",
+              "tags": ["JavaScript", "StyledComponents", "NextJS"],
+              "live": "https://accountant-page.vercel.app/"
+            },
+          
+            {
+              "name": "Pokemon Mobile App",
+              "description": "Pokemon app, converted to React Native, retains all the same functionalities.",
+              "github": "https://github.com/positivee/pokemon-mobile-app",
+              "tags": ["TypeScript", "ReactNative", "Redux", "StyledComponents", "PokéAPI"]
+            },
+        
+            {
+              "name": "Cars App",
+              "description": "An unstyled, basic application that retrieves data from a JSON file and allows users to search by car name or model, with an option to expand brand models.",
+              "github": "https://github.com/positivee/app-car-project",
+              "tags": ["React"]
+           
+            }
+        ],
+        "more": "You can see more projects on my github"
+
+        
+      }
+      
+  }

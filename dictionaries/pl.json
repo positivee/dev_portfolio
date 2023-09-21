@@ -1,0 +1,66 @@
+{
+    "menu":{
+        "about": "O mnie",
+        "skills": "Kompetencje",
+        "projects": "Moje projekty"
+    },
+    "banner": {
+      "text_before": "Cześć, jestem",
+      "text_after": "web developer i specjalista SEO mieszkający w Polsce. Moją pasją jest tworzenie aplikacji internetowych, projektowanie interfejsów i dbanie o to, aby osiągały wysokie rankingi!",
+      "call": "Napisz do mnie!"
+    },
+    "background":{
+      "heading": "O mnie",
+      "description_1": "Jestem absolwentem studiów magisterskich na Politechnice Lubelskiej na kierunku Informatyka.",
+      "description_2": "Jako programista webowy i specjalista SEO, czerpię przyjemność z łączenia dziedzin inżynierii i projektowania. Wykorzystuję moją wiedzę techniczną, aby tworzyć estetycznie przyjemne produkty. Moim ostatecznym celem jest budowanie aplikacji, które nie tylko są skalowalne i efektywne pod względem technicznym, ale także dostarczają wysokich wyników wyszukiwania oraz doskonałych doświadczeń użytkownikom.",
+      "description_3": "Kiedy nie jestem przed ekranem komputera, prawdopodobnie uczę się nowych przepisów kulinarnych, fotografuję lub gram w gry wideo."
+    },
+    "skills":{
+        "heading": "Kompenetcje",
+        "intro": "Umiejętności, narzędzia i technologie, których używam, aby tworzyć moje aplikacje:"
+    },
+    "projectsText":{
+      "heading": "Moje projekty",
+      "intro": "Ciekawsze projekty, które wykonałem:",
+      "projects":[
+          {
+            "name": "Pokemon App",
+            "description": "Aplikacja React TypeScript wykorzystująca API Pokémon do przeglądania i zarządzania ulubionymi Pokémonami. Ta aplikacja umożliwia użytkownikom płynne przeglądanie obszernej listy Pokémonów na wielu stronach. Dodatkowo umożliwia użytkownikom łatwe dodawanie i usuwanie ulubionych Pokémonów, a ich wybory są przechowywane i zarządzane za pomocą Redux.",
+            "github": "https://github.com/positivee/pokemon-app/tree/develop",
+            "tags": ["TypeScript", "React", "Redux", "StyledComponents", "PokéAPI"],
+            "live": "https://pokemon-app-ebon-two.vercel.app/"
+          }, 
+          {
+            "name": "Potography portfolio",
+            "description": "Ta aplikacja została zbudowana przy użyciu Next.js 13, Tailwind CSS, Cloudinary API i Prisma. Umożliwia fotografowi prezentację swojego portfolio fotograficznego w galeriach przechowywanych w Cloudinary i zapewnia panel klienta, w którym klienci mogą się zalogować, aby przeglądać udostępnione im sesje fotograficzne. Wersja na żywo posiada panel administracyjny dla wszystkich użytkowników.",
+            "github": "https://github.com/positivee/accountant-page",
+            "tags": [ "NextJS 13", "Tailwind", "Cloudinary API","Next Auth"],
+            "live": "https://photography-portfolio-4m98.vercel.app/"
+          },
+          {
+            "name": "Accountat Page",
+            "description": "Responsywna strona internetowa stworzona dla biura księgowego przy użyciu Next.js, zoptymalizowana pod kątem SEO.",
+            "github": "https://github.com/positivee/accountant-page",
+            "tags": ["JavaScript", "StyledComponents", "NextJS"],
+            "live": "https://accountant-page.vercel.app/"
+          },
+        
+          {
+            "name": "Pokemon Mobile App",
+            "description": "Aplikacja Pokemon, przekonwertowana do React Native, zachowuje wszystkie te same funkcjonalności.",
+            "github": "https://github.com/positivee/pokemon-mobile-app",
+            "tags": ["TypeScript", "ReactNative", "Redux", "StyledComponents", "PokéAPI"]
+          },
+      
+          {
+            "name": "Cars App",
+            "description": "Niestylizowana, podstawowa aplikacja pobierająca dane z pliku JSON i umożliwiająca wyszukiwanie według nazwy lub modelu samochodu.",
+            "github": "https://github.com/positivee/app-car-project",
+            "tags": ["React"]
+         
+          }
+      ],
+      "more": "Więcej projektów mona zobaczyć na moim githubie"
+      
+    }
+  }
