@@ -13,7 +13,6 @@ export default async function Home({
   const { banner } = await getDictionary(lang);
 
   return (
-    // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     <div className="container m-auto space-y-20 p-4 text-center md:text-left">
       <div className="min-h-[35vh] flex flex-col justify-center  ">
         <p className="text-2xl  md:text-4xl max-w-2xl leading-relaxed	">
