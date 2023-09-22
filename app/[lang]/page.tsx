@@ -14,7 +14,7 @@ export default async function Home({
 
   return (
     <div className="container m-auto space-y-20 p-4 text-center md:text-left  ">
-      <div className="min-h-[35vh] pt-30 md:pt-20 flex flex-col justify-center  ">
+      <div className="min-h-[35vh] pt-40 md:pt-20 flex flex-col justify-center  ">
         <p className="text-2xl  md:text-4xl max-w-2xl leading-relaxed	">
           {banner.text_before}
           <strong className="text-blue-500 "> Kamil Biernacki</strong>
